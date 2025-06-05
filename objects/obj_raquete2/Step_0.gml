@@ -2,7 +2,7 @@
 
 if(global.doisJogadores) exit
 
-vspeed = obj_bola.vspeed
+vspeed = global.vspdBola
 
 if(vspeed >= maxSpd){
 	vspeed = maxSpd	
